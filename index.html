@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schonenberg Developments - Professional CMS Solutions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .hero h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        
+        .hero p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+        
+        .cta-button:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+        }
+        
+        .features {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        
+        .feature {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        .feature h3 {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+        
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 40px 0;
+        }
+        
+        .nav {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 10px 0;
+            margin-bottom: 40px;
+        }
+        
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <div class="nav">
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="https://portal.schonenberg.dev">CMS Portal</a>
+                    <a href="https://demo.schonenberg.dev">Demo</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            
+            <h1>Schonenberg Developments</h1>
+            <p>Professional CMS Solutions for Modern Businesses</p>
+            <a href="https://portal.schonenberg.dev" class="cta-button">Access Your CMS</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 style="text-align: center; font-size: 2.5em; margin-bottom: 20px;">Our Platform</h2>
+            <p style="text-align: center; font-size: 1.2em; color: #666;">Powerful content management designed for your success</p>
+            
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>🚀 Fast & Reliable</h3>
+                    <p>High-performance infrastructure with 99.9% uptime guarantee. Your content is always available when you need it.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🔒 Secure by Design</h3>
+                    <p>Enterprise-grade security with SSL encryption, secure authentication, and regular security updates.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📱 Modern Interface</h3>
+                    <p>Intuitive dashboard that works perfectly on desktop and mobile. Manage your content from anywhere.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🔧 Developer-Friendly</h3>
+                    <p>RESTful API for seamless integration with your existing websites and applications.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>📊 Analytics Ready</h3>
+                    <p>Built-in analytics and reporting to help you understand your content performance.</p>
+                </div>
+                
+                <div class="feature">
+                    <h3>🌍 Scalable</h3>
+                    <p>From small businesses to enterprise clients, our platform grows with your needs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Schonenberg Developments. Professional CMS Solutions.</p>
+            <p>
+                <a href="https://portal.schonenberg.dev" style="color: #667eea; text-decoration: none;">Portal</a> | 
+                <a href="https://api.schonenberg.dev" style="color: #667eea; text-decoration: none;">API</a> | 
+                <a href="https://demo.schonenberg.dev" style="color: #667eea; text-decoration: none;">Demo</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
